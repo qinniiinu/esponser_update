@@ -4,6 +4,7 @@
     "angular.ng-template",
     "bradlc.vscode-tailwindcss",
     "editorconfig.editorconfig",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "pranaygp.vscode-css-peek"
   ]
 }
