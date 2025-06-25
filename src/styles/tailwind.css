@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  /* 先把不需要的預設清掉 */
+  --color-*: initial;
+  --breakpoint-*: initial;
+  --text-*: initial;
+  --spacing-*: initial;
+  --radius-*: initial;
+  --leading-*: initial;
+  --spacing: initial;
+  --font-weight-*: initial;
+
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1280px;
+
+  /* --text-* 來定義字級 */
+  --text-12: 12px;
+  --text-14: 14px;
+  --text-16: 16px;
+  --text-18: 18px;
+  --text-20: 20px;
+  --text-24: 24px;
+  --text-32: 32px;
+  --text-40: 40px;
+
+  /* ── 間距 ── */
+  --spacing-0: 0px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-44: 44px;
+  --spacing-48: 48px;
+  --spacing-52: 52px;
+  --spacing-56: 56px;
+  --spacing-60: 60px;
+  --spacing-64: 64px;
+  --spacing-68: 68px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-100: 100px;
+
+  /* ── 圓角 ── */
+  --radius-0: 0px;
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+
+  /* ── 行高 ── */
+  --leading-0: 0px;
+  --leading-4: 4px;
+  --leading-8: 8px;
+  --leading-12: 12px;
+  --leading-16: 16px;
+  --leading-24: 24px;
+  --leading-32: 32px;
+  --leading-40: 40px;
+  --leading-56: 56px;
+  --leading-72: 72px;
+  --leading-80: 80px;
+  --leading-96: 96px;
+
+  /* 把 Figma 給的色票轉成 token —— 名稱自由，建議語義化 */
+  --color-transparent: transparent;
+  --color-black: #000;
+  --color-white: #fff;
+
+  --color-main-blue: #006192;
+  --color-main-blue-secondary: #007ab3;
+
+  --color-bg-blue: #f1f9fa;
+  --color-bg-white: #ffffff;
+
+  --color-font-blue: #003781;
+  --color-font-dark: #414141;
+  --color-font-white: #ffffff;
+  --color-font-gray: #c2c2c2;
+
+  --color-btn-blue: #007ab3;
+  --color-line: #c2c2c2;
+  --color-error: #dc3149;
+  --color-warning: #ffb700;
+}
+
+/* @layer components {
+  .typography {
+  }
+} */

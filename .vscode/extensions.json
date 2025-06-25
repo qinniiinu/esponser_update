@@ -5,6 +5,8 @@
     "bradlc.vscode-tailwindcss",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
-    "pranaygp.vscode-css-peek"
+    "pranaygp.vscode-css-peek",
+    "tomwhite007.rename-angular-component",
+    "formulahendry.auto-rename-tag"
   ]
 }
